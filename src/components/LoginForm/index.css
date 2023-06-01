@@ -1,0 +1,56 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+}
+
+.website-login {
+  width: 900px;
+  height: 500px;
+  padding-right: 50px;
+}
+
+.website-logo {
+  width: 300px;
+  height: 50px;
+}
+
+.form-element {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  box-shadow: 0px 4px 16px #bfbfbf;
+}
+.input-el {
+  outline: none;
+  padding-left: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 24px;
+}
+
+.password-el {
+  padding-left: 10px;
+  width: 100%;
+  outline: none;
+  height: 24px;
+}
+
+.btn1 {
+  width: 100%;
+  outline: none;
+  margin-top: 20px;
+  height: 30px;
+  border: 1px solid #0b69ff;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+.error-msg {
+  color: red;
+}
